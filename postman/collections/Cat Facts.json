@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "ee478d4c-a244-410c-a472-80f1ea827e7a",
+		"_postman_id": "effe3c79-34a5-4727-8ea7-a6b394176217",
 		"name": "Cat Facts",
 		"description": "**The Cat Facts API allows you to programmatically access facts about felines over the internet.** \n\n# API Reference\n\nContact Support:\n Email: contact@catfact.ninja",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "24492028-ee478d4c-a244-410c-a472-80f1ea827e7a"
+		"_uid": "37582007-effe3c79-34a5-4727-8ea7-a6b394176217"
 	},
 	"item": [
 		{
@@ -16,7 +16,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "161e3026-e6f2-4e0a-b7ce-58fde7652106",
+								"id": "ba8f40d9-4f4a-4472-81bf-ca1bf97d6963",
 								"exec": [
 									"pm.test('Validate Schema', function () {",
 									"  var jsonData = pm.response.json()",
@@ -38,7 +38,7 @@
 							}
 						}
 					],
-					"id": "4b7278ec-c83b-4b42-8c1e-c14585ebe1cb",
+					"id": "862c11fb-46dd-4c53-8383-f1395f6aa40e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -71,7 +71,7 @@
 					},
 					"response": [
 						{
-							"id": "8e1ccda7-b1c2-484f-b034-d562c1dd127d",
+							"id": "e741c5cd-b0d6-40b1-908f-5679e814e3dd",
 							"name": "Normal response",
 							"originalRequest": {
 								"method": "GET",
@@ -101,6 +101,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -111,7 +112,7 @@
 							"body": "{\n  \"fact\": \"nostrud\",\n  \"length\": 25191961\n}"
 						},
 						{
-							"id": "341d92e1-fc1b-4585-afb6-6de5151abdce",
+							"id": "213c0c54-fcef-4a0a-9968-dfa2469c79d7",
 							"name": "Fact not found",
 							"originalRequest": {
 								"method": "GET",
@@ -136,11 +137,12 @@
 							"status": "Not Found",
 							"code": 404,
 							"_postman_previewlanguage": "text",
+							"_postman_previewtype": "html",
 							"header": [],
 							"cookie": []
 						},
 						{
-							"id": "b94a6552-06ed-49be-8f78-516446db7c35",
+							"id": "16296f76-ae0d-482b-a676-d65eb65b2c5b",
 							"name": "Server Exception",
 							"originalRequest": {
 								"method": "GET",
@@ -168,6 +170,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -181,7 +184,7 @@
 				},
 				{
 					"name": "Get a list of facts",
-					"id": "1eb75585-806c-490a-8c2a-a5b516c5fec0",
+					"id": "0b2d7b69-16d1-4aaa-8299-35dd4d2f8565",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -217,7 +220,7 @@
 					},
 					"response": [
 						{
-							"id": "1e65307b-d82a-4b78-a72f-f6e955a66c75",
+							"id": "019cc25a-dbe5-430f-b6b1-a90f45bab900",
 							"name": "successful operation",
 							"originalRequest": {
 								"method": "GET",
@@ -251,6 +254,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -261,7 +265,7 @@
 							"body": "{}"
 						},
 						{
-							"id": "6be7f0b7-abac-4740-a674-9ae5e3471943",
+							"id": "064593a8-2a37-46e8-afc1-b3729014c95e",
 							"name": "Server Exception",
 							"originalRequest": {
 								"method": "GET",
@@ -289,6 +293,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -301,7 +306,7 @@
 					]
 				}
 			],
-			"id": "158c25fc-e8e2-4067-a148-55fcf311ed97",
+			"id": "53a96b6a-6d17-495d-bd81-0b2a32055fcd",
 			"description": "Cat Facts"
 		},
 		{
@@ -309,7 +314,7 @@
 			"item": [
 				{
 					"name": "Returns a list of breeds",
-					"id": "b96fa990-249a-41fe-bdf8-05eaf0c3fde5",
+					"id": "8da7c613-2829-476b-9989-f0ceec511285",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -341,7 +346,7 @@
 					},
 					"response": [
 						{
-							"id": "2c1cd2bb-fb9a-4af1-a22a-5edd7fa42083",
+							"id": "d9c0e511-a726-4a4b-8180-161b3ce38a0f",
 							"name": "Normal operation",
 							"originalRequest": {
 								"method": "GET",
@@ -371,6 +376,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -381,7 +387,7 @@
 							"body": "{}"
 						},
 						{
-							"id": "d9803b24-1762-4d1b-8926-c38859bce091",
+							"id": "cfb6e033-96c4-4079-bbb0-09bad33979df",
 							"name": "Server Exception",
 							"originalRequest": {
 								"method": "GET",
@@ -409,6 +415,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -421,7 +428,7 @@
 					]
 				}
 			],
-			"id": "66fd9039-4ed6-4e1b-8b2b-5ac6d7f82008",
+			"id": "1ab14303-912d-4b5c-9d43-5607ce7cda4f",
 			"description": "Breeds"
 		}
 	],
