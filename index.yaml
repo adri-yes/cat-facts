@@ -30,7 +30,7 @@ servers:
 paths:
   /breeds:
     get:
-      summary: Return a list of breeds
+      summary: Returns a list of breeds
       tags:
         - Breeds
       description: Returns a list of breeds
