@@ -104,7 +104,7 @@ paths:
             format: int64
         - name: limit
           in: query
-          description: limit the amount of results returned
+          description: limits the amount of results returned
           required: false
           example: 10
           schema:
