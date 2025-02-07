@@ -164,7 +164,7 @@ components:
           format: string
       type: object
     CatFact:
-      title: CatFact model
+      title: CatFacts model
       description: CatFact
       required:
         - fact
