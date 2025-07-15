@@ -1,6 +1,6 @@
 name: CR - Automated API tests using Postman CLI
 
-on: workflow-dispatch
+on: workflow_dispatch
 
 jobs:
   automated-api-tests:
