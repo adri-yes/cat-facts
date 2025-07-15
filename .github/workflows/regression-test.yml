@@ -1,4 +1,4 @@
-name: Regression
+name: Automated API tests using Postman CLI
 
 on: workflow_dispatch
 
@@ -14,4 +14,4 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "24492028-b6f54637-6a04-41bf-92cd-30744d6f91fa"
+          postman collection run "37582007-e46a7410-36e5-4c31-8c53-7d8068124b87" -e "37582007-5e3ddad0-4ef7-4398-8cf7-d3a509709a42"
